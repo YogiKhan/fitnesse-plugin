@@ -101,8 +101,14 @@
 
 <f:block><em>Target</em></f:block>
 
-  <f:entry title="Target Page" field="fitnesseTargetPage"
+  <f:entry title="Number of thread" field="numberOfThread"
   help="/descriptor/hudson.plugins.fitnesse.FitnesseBuilder/help/targetPage"> 
+    <f:textbox name="numberOfThread" />
+  </f:entry>
+
+
+  <f:entry title="Target Page" field="fitnesseTargetPage"
+  help="/descriptor/hudson.plugins.fitnesse.FitnesseBuilder/help/targetPage">
     <f:textbox name="fitnesseTargetPage" />
   </f:entry>
 
